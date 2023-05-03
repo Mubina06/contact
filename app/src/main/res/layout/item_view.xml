@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dp"
+        android:paddingEnd="40dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/account_circle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:text="Mubina orto" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:paddingTop="29dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/call" />
+
+</LinearLayout>
